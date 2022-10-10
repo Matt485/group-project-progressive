@@ -1,6 +1,3 @@
-* {
-    margin: 0;
-}
 body {
     height: 100%;
     width: 100%;
@@ -9,18 +6,13 @@ body {
 }
 .main-container {
     width: 80vw;
-    margin: auto;
 }
 .header-container {
-    height: 15vh;
-    background-color: teal;
 }
 .unfold {
     background-image: "assests/myImage.jpg"
 }
 .menu {
-    height: 5vh;
-    background-color: rebeccapurple;
 }
 .banner {
 }
@@ -31,8 +23,6 @@ body {
 .social-icon {
 }
 .about-me {
-    height: 15vh;
-    background-color: red;
 }
 .light-bg {
 }
@@ -48,7 +38,6 @@ body {
 .about-me-right {
 }
 .my-service  {
-    background-color: yellow;
 }
 .services-up {
     display: flex;
@@ -70,34 +59,36 @@ body {
 
 }
 .any-project {
-    height: 5vh;
-    background-color: brown;
 }
 .button {
 }
 .my-recent-works {
-    height: 5vh;
-    background-color: orange;
 }
 .intro-my-recent {
 }
 .works-images {
 }
 .my-pricing-plans {
-    height: 5vh;
-    background-color: pink;
 }
 .pricing {
+    display: flex;
+}
+.services-boxes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+li {
+  list-style-type: none;
+}
+.services-boxes h3 {
+    
 }
 .from-the-blog {
-    height: 5vh;
-    background-color: green;
 }
 .blog-photos {
 }
 .get-in-touch {
-    height: 5vh;
-    background-color: aqua;
 }
 .contact-up {
 }
@@ -108,8 +99,6 @@ body {
 .contact-right {
 }
 .footer-info {
-    height: 5vh;
-    background-color: lime;
 }
 .copyright {
 }
