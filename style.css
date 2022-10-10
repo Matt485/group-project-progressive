@@ -1,0 +1,160 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #ccc;
+}
+.main-container {
+    width: 80vw;
+}
+.header-container {
+    
+}
+.nav-container{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.unfold {
+    /* background-image: "assests/myImage.jpg"; */
+}
+.menu { margin-right: 25px;
+}
+nav a{
+    text-decoration: none;
+    padding: 5px;
+}
+.banner {
+}
+.hello {
+}
+.hero {
+}
+.social-icon {
+}
+.about-me {
+}
+.light-bg {
+}
+.dark-bg {
+}
+.intro {
+    width: 600px;
+}
+.about-me-left {
+}
+.information {
+}
+.about-me-right {
+}
+.my-service  {
+}
+.services {
+}
+.one-service {
+}
+.any-project {
+    background: url(./img/any-proj-bg.jpg);
+    background-size: cover;
+    height: 300px;
+    color: white;
+}
+
+
+.transparent-any-project{   
+    height: 300px;
+    background-color: rgb(117, 78, 249, 0.5);   
+}
+
+.project-position{
+    margin-left: 240px;
+    text-align: center;
+    padding: 50px;
+    width: 600px;
+
+}
+.button button {
+    border: white solid 1px;
+    height: 30px;
+    width: 150px;
+    border-radius: 30px;
+    margin: 10px;
+
+}
+.white-btn{
+    background-color: white;
+    color: #754ef9;
+}
+.transparent-btn{
+    background-color:rgb(117, 78, 249, 0.1);
+    color: white;
+
+}
+
+.my-recent-works {
+}
+.intro-my-recent {
+}
+.works-images {
+}
+.my-pricing-plans {
+}
+.pricing {
+}
+.from-the-blog {
+    text-align: center;
+    
+}
+.blog-intro{
+    margin-left: 240px;
+    width: 600px;
+}
+.blog-photos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    width: 910px;
+    margin-left: 150px;
+}
+.blog-photo1 img{
+    width: 255px;
+    height: 260px;
+    border-radius: 5px;
+    position: relative;
+    
+}
+.bg-white{
+    background: white;
+    width: 190px;
+    position: absolute;
+    margin-top  : -115px;
+}
+.from-the-blog button{ 
+    border :rgb(117, 78, 249, 0.1);
+    color: white;
+    background-color:rgb(117, 78, 249);
+    -webkit-box-shadow: 0px 4px 17px 0px rgba(102,122,119,1);
+    -moz-box-shadow: 0px 4px 17px 0px rgba(102,122,119,1);
+    box-shadow: 0px 4px 17px 0px rgba(102,122,119,1);
+    height: 30px;
+    width: 150px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.get-in-touch {
+}
+.contact-up {
+}
+.contact-down {
+}
+.contact-left {
+}
+.contact-right {
+}
+.footer-info {
+}
+.copyright {
+}
