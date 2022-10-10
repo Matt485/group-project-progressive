@@ -1,0 +1,136 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #ccc;
+}
+.main-container {
+    width: 80vw;
+}
+.header-container {
+}
+.unfold {
+    background-image: "assests/myImage.jpg"
+}
+.menu {
+}
+.banner {
+}
+.hello {
+}
+.hero {
+}
+.social-icon {
+}
+.about-me {
+}
+.light-bg {
+}
+.dark-bg {
+}
+.intro {
+
+}
+.about-me-left {
+}
+.information {
+}
+.about-me-right {
+}
+.my-service  {
+}
+.services-up {
+    display: flex;
+}
+.services-down {
+    display: flex;
+}
+.one-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    padding: 3%;
+    margin: 10px;
+
+}
+.any-project {
+}
+.button {
+}
+.my-recent-works {
+}
+.intro-my-recent {
+}
+.works-images {
+}
+.my-pricing-plans {
+}
+.pricing {
+    display: flex;
+}
+.services-boxes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 2% 0 2%;
+}
+.first-part {
+    background-color: #754ef9;
+    color:  white;
+    border-radius: 3px 3px 0 0;
+    margin: 0
+}
+.scd-part {
+    background-color: white;
+    padding: 6% 4% 6% 4%;
+}
+.third-part {
+    background-color: white;
+    padding: 6% 4% 6% 4%;
+}
+li {
+  list-style-type: none;
+}
+.button-services-white {
+    background-color: white;
+    color: #754ef9;    
+    border-style: solid;
+    border-width: 1px;
+    border-color: #754ef9;
+    border-radius: 20px;
+    padding: 4% 1% 4% 1%;
+    width: 75%;
+}
+.button-services-purple {
+    background-color: #754ef9;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 20px;
+    padding: 4% 1% 4% 1%;
+    width: 75%;
+}
+.from-the-blog {
+}
+.blog-photos {
+}
+.get-in-touch {
+}
+.contact-up {
+}
+.contact-down {
+}
+.contact-left {
+}
+.contact-right {
+}
+.footer-info {
+}
+.copyright {
+}
