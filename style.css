@@ -1,6 +1,11 @@
-body{
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #ccc;
 }
 .main-container {
+    width: 80vw;
 }
 .unfold {
 }
