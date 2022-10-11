@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
 }
@@ -19,8 +20,19 @@ body {
     background-image: "assests/myImage.jpg"
 }
 .menu {
+    margin-right: 25px;
     height: 5vh;
     background-color: rebeccapurple;
+}
+.nav-container{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    padding: 5px;
 }
 .banner {
 }
@@ -38,7 +50,7 @@ body {
 .dark-bg {
 }
 .intro {
-
+    width: 600px;/*prati*/
 }
 .about-me-left {
 }
@@ -70,9 +82,39 @@ body {
 }
 .any-project {
     height: 5vh;
-    background-color: brown;
+    /* background-color: brown; */
+    background: url(./img/any-proj-bg.jpg);
+    background-size: cover;
+    /* height: 300px; */
+    color: white;
 }
-.button {
+.transparent-any-project{   
+    height: 300px;
+    background-color: rgb(117, 78, 249, 0.5);   
+}
+.project-position{
+    margin-left: 240px;
+    text-align: center;
+    padding: 50px;
+    width: 600px;
+
+}
+.white-btn{
+    background-color: white;
+    color: #754ef9;
+}
+.transparent-btn{
+    background-color:rgb(117, 78, 249, 0.1);
+    color: white;
+
+}
+.button button {
+    border: white solid 1px;
+    height: 30px;
+    width: 150px;
+    border-radius: 30px;
+    margin: 10px;
+
 }
 .my-recent-works {
     height: 5vh;
@@ -100,12 +142,49 @@ li {
 .services-boxes h3 {
     
 }
+.blog-intro{
+    margin-left: 240px;
+    width: 600px;
+}
+.blog-photos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    width: 910px;
+    margin-left: 150px;
+}
+.blog-photo1 img{
+    width: 255px;
+    height: 260px;
+    border-radius: 5px;
+    position: relative;
+    
+}
+.bg-white{
+    background: white;
+    width: 190px;
+    position: absolute;
+    margin-top  : -115px;
+}
+.from-the-blog button{ 
+    border :rgb(117, 78, 249, 0.1);
+    color: white;
+    background-color:rgb(117, 78, 249);
+    -webkit-box-shadow: 0px 4px 17px 0px rgba(102,122,119,1);
+    -moz-box-shadow: 0px 4px 17px 0px rgba(102,122,119,1);
+    box-shadow: 0px 4px 17px 0px rgba(102,122,119,1);
+    height: 30px;
+    width: 150px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
 .from-the-blog {
     height: 5vh;
     background-color: green;
 }
-.blog-photos {
-}
+
 .get-in-touch {
     height: 5vh;
     background-color: aqua;
