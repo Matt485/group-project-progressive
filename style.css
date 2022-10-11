@@ -21,7 +21,6 @@ body {
 }
 .menu {
     margin-right: 25px;
-    height: 5vh;
     background-color: rebeccapurple;
 }
 .nav-container{
@@ -81,7 +80,6 @@ nav a{
 
 }
 .any-project {
-    height: 5vh;
     /* background-color: brown; */
     background: url(./img/any-proj-bg.jpg);
     background-size: cover;
@@ -117,7 +115,6 @@ nav a{
 
 }
 .my-recent-works {
-    height: 5vh;
     background-color: orange;
 }
 .intro-my-recent {
@@ -125,7 +122,6 @@ nav a{
 .works-images {
 }
 .my-pricing-plans {
-    height: 5vh;
     background-color: pink;
 }
 .pricing {
@@ -181,12 +177,10 @@ li {
     margin-bottom: 50px;
 }
 .from-the-blog {
-    height: 5vh;
     background-color: green;
 }
 
 .get-in-touch {
-    height: 5vh;
     background-color: aqua;
 }
 .contact-up {
@@ -198,7 +192,6 @@ li {
 .contact-right {
 }
 .footer-info {
-    height: 5vh;
     background-color: lime;
 }
 .copyright {
