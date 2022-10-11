@@ -296,6 +296,7 @@ li {
 .bg-white{
     background: white;
     width: 15vw;
+    height: 4.vw;
     position: absolute;
     margin-top: -9vw;
     padding: 1vw;
@@ -332,10 +333,35 @@ li {
 }
 .contact-right {
 }
+.footer-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.footer-align img{
+    width: 100px;
+}
+.footer-align p{
+    width: 47vw;
+}
 .footer-info {
-    height: 5vh;
-    background-color: lime;
+    background-color: rgb(75, 78, 75);
 }
 .copyright {
+    padding-top: 2px;
+    width: 80vw;
+    height: 30px;
+    background: rgb(32, 32, 32);
+    text-align: center;
+
+}
+.social-connect i{
+    
+    margin: 5px;
+}
+.copyright p{
+    margin-top: 5px;
+    height: 10px;
 }
 
