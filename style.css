@@ -6,7 +6,7 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
-    background-color: #ccc;
+    background-color: white;
 }
 
 .main-container {
@@ -15,18 +15,16 @@ body {
 }
 .header-container {
     margin: auto;
-    background-color: teal;
     height: 565px;
+    background-color: white;
 }
 .unfold {
     background-image: "assests/myImage.jpg"
 }
 .menu {
     margin-right: 25px;
-    background-color: rebeccapurple;
 }
 .nav-container{
-   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,7 +95,7 @@ nav {
 }
 
 .about-me {
-    background-color: red;
+    padding: 10%;
 }
 .light-bg {
 }
@@ -117,7 +115,8 @@ i {
     padding-bottom: 10%;
 }
 .my-service  {
-    background-color: yellow;
+    background-color: rgb(RGB : 230, 230, 230);
+    padding: 10%;
 }
 .services-up {
     display: flex;
@@ -175,13 +174,15 @@ i {
 .my-recent-works {
     height: 5vh;
     background-color: orange;
+    padding: 10%;
 }
 .intro-my-recent {
 }
 .works-images {
 }
 .my-pricing-plans {
-    background-color: pink;
+    padding: 10%;
+    background-color: rgb(RGB : 230, 230, 230);
 }
 .pricing {
     display: flex;
@@ -240,6 +241,11 @@ li {
     width: 150px;
     box-shadow: 0px 6px 8px 0 #754ef9;
 }
+
+.from-the-blog {
+    background-color: white;
+    padding: 10%;
+}
 .blog-intro{
     margin-left: 18vw;
     text-align: center;
@@ -282,12 +288,10 @@ li {
     margin-bottom: 2vw;
     margin-left: 32vw;
 }
-.from-the-blog {
-    background-color: green;
-}
 
 .get-in-touch {
-    background-color: aqua;
+    padding: 10%;
+    background-color: rgb(RGB : 230, 230, 230);
 }
 .contact-up {
 }
