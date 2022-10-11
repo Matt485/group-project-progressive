@@ -10,6 +10,11 @@ body {
     width: 100%;
     margin: 0;
     background-color: white;
+    font-family: Roboto;
+}
+
+p {
+    color: grey;
 }
 
 .main-container {
@@ -100,14 +105,10 @@ nav {
 .about-me {
     padding: 10%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-.light-bg {
-}
-.dark-bg {
-}
+
 .intro {
     width: 50%;
     padding: 0 3% 3% 3%;
@@ -117,11 +118,19 @@ nav {
     align-items: center;
     text-align: center;
 }
+
+.about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .about-me-left {
+    flex: 1 1 0px;
 }
-.information {
-}
+
 .about-me-right {
+    flex: 1 1 0px;
 }
 i {
     color: #754ef9;
@@ -137,7 +146,6 @@ i {
 }
 .services-up {
     display: flex;
-
 }
 .services-down {
     display: flex;
@@ -147,6 +155,7 @@ i {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     background-color: white;
     border-style: solid;
     border-width: 1px;
@@ -189,8 +198,6 @@ i {
 
 }
 .my-recent-works {
-    height: 5vh;
-    background-color: orange;
     padding: 10%;
     display: flex;
     flex-direction: column;
@@ -364,20 +371,25 @@ li {
     width:330px;
 }
 .footer-align{
+    background-color: rgb(75, 78, 75);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+    padding-bottom: 7%;
+    padding-top: 7%;
+    padding-left:  10%;
+    padding-right: 10%;
+    color: white;
 }
+
 .footer-align img{
     width: 100px;
 }
 .footer-align p{
-    width: 47vw;
-}
-.footer-info {
-    background-color: rgb(75, 78, 75);
+    width: 50%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 .copyright {
     padding-top: 2px;
@@ -385,7 +397,7 @@ li {
     height: 30px;
     background: rgb(32, 32, 32);
     text-align: center;
-
+    color: white;
 }
 .social-connect i{
     
@@ -394,5 +406,31 @@ li {
 .copyright p{
     margin-top: 5px;
     height: 10px;
+}
+
+.progress-bar-container {
+    width: 100%;
+    display: inline-block;
+}
+.pb-label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.pb-left {
+    align-self: flex-start;
+}
+.pb-right {
+    align-self: flex-end;
+}
+.progress-bar {
+    height: 0.3vh;
+    width: 100%;
+    background-color: #ccc;
+}
+.progress-bar-color {
+    height: 100%;
+    width: var(--pb-width);
+    background-color: blue;
 }
 
