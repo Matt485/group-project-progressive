@@ -102,14 +102,10 @@ nav {
 .about-me {
     padding: 10%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-.light-bg {
-}
-.dark-bg {
-}
+
 .intro {
     width: 50%;
     padding: 0 3% 3% 3%;
@@ -119,11 +115,19 @@ nav {
     align-items: center;
     text-align: center;
 }
+
+.about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .about-me-left {
+    flex: 1 1 0px;
 }
-.information {
-}
+
 .about-me-right {
+    flex: 1 1 0px;
 }
 i {
     color: #754ef9;
@@ -371,7 +375,7 @@ li {
 }
 
 .progress-bar-container {
-    width: 20vw;
+    width: 100%;
     display: inline-block;
 }
 .pb-label {
