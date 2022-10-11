@@ -1,4 +1,7 @@
-<<<<<<< HEAD
+
+* {
+    margin: 0;
+}
 body {
     height: 100%;
     width: 100%;
@@ -7,20 +10,25 @@ body {
 }
 .main-container {
     width: 80vw;
+    margin: auto;
 }
 .header-container {
-    
+    height: 15vh;
+    background-color: teal;
+}
+.unfold {
+    background-image: "assests/myImage.jpg"
+}
+.menu {
+    margin-right: 25px;
+    height: 5vh;
+    background-color: rebeccapurple;
 }
 .nav-container{
    
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.unfold {
-    /* background-image: "assests/myImage.jpg"; */
-}
-.menu { margin-right: 25px;
 }
 nav a{
     text-decoration: none;
@@ -35,13 +43,14 @@ nav a{
 .social-icon {
 }
 .about-me {
+    background-color: red;
 }
 .light-bg {
 }
 .dark-bg {
 }
 .intro {
-    width: 600px;
+    width: 600px;/*prati*/
 }
 .about-me-left {
 }
@@ -50,37 +59,44 @@ nav a{
 .about-me-right {
 }
 .my-service  {
+    background-color: yellow;
 }
-.services {
+.services-up {
+    display: flex;
+}
+.services-down {
+    display: flex;
 }
 .one-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    padding: 3%;
+    margin: 10px;
+
 }
 .any-project {
+    height: 5vh;
+    /* background-color: brown; */
     background: url(./img/any-proj-bg.jpg);
     background-size: cover;
-    height: 300px;
+    /* height: 300px; */
     color: white;
 }
-
-
 .transparent-any-project{   
     height: 300px;
     background-color: rgb(117, 78, 249, 0.5);   
 }
-
 .project-position{
     margin-left: 240px;
     text-align: center;
     padding: 50px;
     width: 600px;
-
-}
-.button button {
-    border: white solid 1px;
-    height: 30px;
-    width: 150px;
-    border-radius: 30px;
-    margin: 10px;
 
 }
 .white-btn{
@@ -92,19 +108,38 @@ nav a{
     color: white;
 
 }
+.button button {
+    border: white solid 1px;
+    height: 30px;
+    width: 150px;
+    border-radius: 30px;
+    margin: 10px;
 
+}
 .my-recent-works {
+    height: 5vh;
+    background-color: orange;
 }
 .intro-my-recent {
 }
 .works-images {
 }
 .my-pricing-plans {
+    height: 5vh;
+    background-color: pink;
 }
 .pricing {
+    display: flex;
 }
-.from-the-blog {
+.services-boxes {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+}
+li {
+  list-style-type: none;
+}
+.services-boxes h3 {
     
 }
 .blog-intro{
@@ -145,129 +180,11 @@ nav a{
     margin-top: 30px;
     margin-bottom: 50px;
 }
-.get-in-touch {
-}
-.contact-up {
-}
-.contact-down {
-}
-.contact-left {
-}
-.contact-right {
-}
-.footer-info {
-}
-.copyright {
-}
-=======
-* {
-    margin: 0;
-}
-body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    background-color: #ccc;
-}
-.main-container {
-    width: 80vw;
-    margin: auto;
-}
-.header-container {
-    height: 15vh;
-    background-color: teal;
-}
-.unfold {
-    background-image: "assests/myImage.jpg"
-}
-.menu {
-    height: 5vh;
-    background-color: rebeccapurple;
-}
-.banner {
-}
-.hello {
-}
-.hero {
-}
-.social-icon {
-}
-.about-me {
-    background-color: red;
-}
-.light-bg {
-}
-.dark-bg {
-}
-.intro {
-
-}
-.about-me-left {
-}
-.information {
-}
-.about-me-right {
-}
-.my-service  {
-    background-color: yellow;
-}
-.services-up {
-    display: flex;
-}
-.services-down {
-    display: flex;
-}
-.one-service {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border-style: solid;
-    border-width: 1px;
-    border-color: grey;
-    padding: 3%;
-    margin: 10px;
-
-}
-.any-project {
-    height: 5vh;
-    background-color: brown;
-}
-.button {
-}
-.my-recent-works {
-    height: 5vh;
-    background-color: orange;
-}
-.intro-my-recent {
-}
-.works-images {
-}
-.my-pricing-plans {
-    height: 5vh;
-    background-color: pink;
-}
-.pricing {
-    display: flex;
-}
-.services-boxes {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-li {
-  list-style-type: none;
-}
-.services-boxes h3 {
-    
-}
 .from-the-blog {
     height: 5vh;
     background-color: green;
 }
-.blog-photos {
-}
+
 .get-in-touch {
     height: 5vh;
     background-color: aqua;
@@ -286,4 +203,3 @@ li {
 }
 .copyright {
 }
->>>>>>> main
