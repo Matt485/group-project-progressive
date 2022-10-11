@@ -115,7 +115,7 @@ i {
     padding-bottom: 10%;
 }
 .my-service  {
-    background-color: rgb(RGB : 230, 230, 230);
+    background-color: rgb(230, 230, 230);
     padding: 10%;
 }
 .services-up {
@@ -182,7 +182,7 @@ i {
 }
 .my-pricing-plans {
     padding: 10%;
-    background-color: rgb(RGB : 230, 230, 230);
+    background-color: rgb(230, 230, 230);
 }
 .pricing {
     display: flex;
@@ -291,7 +291,7 @@ li {
 
 .get-in-touch {
     padding: 10%;
-    background-color: rgb(RGB : 230, 230, 230);
+    background-color: rgb(230, 230, 230);
 }
 .contact-up {
 }
