@@ -43,6 +43,7 @@ nav a{
 }
 .about-me {
     background-color: red;
+    display: flex;
 }
 .light-bg {
 }
