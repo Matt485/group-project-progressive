@@ -1,20 +1,23 @@
-
+<<<<<<< HEAD
 * {
     margin: 0;
 }
+
 body {
     height: 100%;
     width: 100%;
     margin: 0;
     background-color: #ccc;
 }
+
 .main-container {
     width: 80vw;
     margin: auto;
 }
 .header-container {
-    height: 15vh;
+    margin: auto;
     background-color: teal;
+    height: 100vh;
 }
 .unfold {
     background-image: "assests/myImage.jpg"
@@ -34,12 +37,55 @@ nav a{
     padding: 5px;
 }
 .banner {
+    height: 60vh;
 }
-.hello {
+.banner-bg {
+    margin: 0;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(251, 251, 251);
 }
-.hero {
+.img-bg {
+    height: 80px;
 }
-.social-icon {
+.column-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.trait {
+    height: 2px;
+    background-color: #754ef9;
+}
+.banner-infront {
+    height: 60vh;
+    width: 80vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 5vh;
+}
+.banner-right img {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-left {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.social-icons {
+    width: 80vw;
+    position: absolute;
+    top: 50vh;
+    left: 18vw;
 }
 .about-me {
     background-color: red;
@@ -56,6 +102,10 @@ nav a{
 .information {
 }
 .about-me-right {
+}
+i {
+    color: #754ef9;
+    padding-bottom: 10%;
 }
 .my-service  {
     background-color: yellow;
@@ -115,6 +165,7 @@ nav a{
 
 }
 .my-recent-works {
+    height: 5vh;
     background-color: orange;
 }
 .intro-my-recent {
@@ -131,12 +182,55 @@ nav a{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 0 2% 0 2%;
+}
+.services-shadow {
+    box-shadow: 0 4px 20px 0 grey;
+}
+.first-part {
+    background-color: #754ef9;
+    color:  white;
+    border-radius: 3px 3px 0 0;
+    padding: 6% 0 6% 0;
+}
+.scd-part {
+    background-color: white;
+    padding: 6% 4% 6% 4%;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+.third-part {
+    background-color: white;
+    padding: 20% 4% 20% 4%;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    border-radius: 0 0 3px 3px;
+
 }
 li {
   list-style-type: none;
 }
-.services-boxes h3 {
-    
+.button-white {
+    background-color: white;
+    color: #754ef9;    
+    border-style: 1px solid #754ef9;
+    border-radius: 20px;
+    padding: 6% 0 6% 0;
+    margin-top: 20px;
+    width: 110px;
+    box-shadow: 0px 6px 8px 0 #754ef9;
+}
+.button-purple {
+    background-color: #754ef9;
+    color: white;
+    border-style: 1px solid white;
+    border-radius: 20px;
+    padding: 6% 0 6% 0;
+    margin-top: 20px;
+    width: 110px;
+    box-shadow: 0px 6px 8px 0 #754ef9;
 }
 .blog-intro{
     margin-left: 240px;
@@ -192,6 +286,7 @@ li {
 .contact-right {
 }
 .footer-info {
+    height: 5vh;
     background-color: lime;
 }
 .copyright {
