@@ -186,8 +186,6 @@ i {
 
 }
 .my-recent-works {
-    height: 5vh;
-    background-color: orange;
     padding: 10%;
     display: flex;
     flex-direction: column;
