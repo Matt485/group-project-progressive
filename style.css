@@ -44,30 +44,73 @@ nav a{
 nav {
     height: 65px;
 }
-.banner {
-    height: 500px;
-}
+
 .banner-bg {
-    margin: 0;
     height: 500px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     background-color: rgb(251, 251, 251);
+    position: relative;
 }
-.img-bg {
+
+/*1019 * 500 */
+
+.shape-1 {
+    position: absolute;
     height: 80px;
 }
-.column-bg {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.shape-2 {
+    position: absolute;
+    height: 60px;
+    top: -10px;
+    left: 150px;
 }
-.trait {
-    height: 2px;
-    background-color: #754ef9;
+.shape-3 {
+    position: absolute;
+    height: 100px;
+    top: -10px;
+    left: 300px;
 }
+.shape-2-b {
+    position: absolute;
+    height: 60px;
+    top: 0px;
+    left: 900px;
+}
+.shape-4 {
+    position: absolute;
+    height: 30px;
+    bottom: 300px;
+    left: 40px;
+}
+.shape-5 {
+    position: absolute;
+    height: 100px;
+    bottom: 30px;
+}
+.shape-3-b {
+    position: absolute;
+    height: 100px;
+    bottom: 150px;
+    left:  50px;
+}
+.shape-6 {
+    position: absolute;
+    height: 100px;
+    bottom: 50px;
+    left:  450px;
+}
+.shape-3-c {
+    position: absolute;
+    height: 80px;
+    bottom: 20px;
+    right:  10px;
+}
+.shape-1-b {
+    position: absolute;
+    height: 80px;
+    right:  20px;
+    bottom: 200px;
+}
+
 .banner-infront {
     height: 500px;
     width: 80vw;
@@ -98,7 +141,7 @@ nav {
     padding-top: 25%;
 }
 .banner-right img {
-    height: 500px;
+    height: 400px;
     display: flex;
 }
 
