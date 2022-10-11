@@ -81,22 +81,22 @@ nav a{
 
 }
 .any-project {
-    height: 5vh;
+    /* height: 5vh; */
     /* background-color: brown; */
     background: url(./img/any-proj-bg.jpg);
     background-size: cover;
-    /* height: 300px; */
+    height: 40vh;
     color: white;
 }
 .transparent-any-project{   
-    height: 300px;
+    height: 40vh;
     background-color: rgb(117, 78, 249, 0.5);   
 }
 .project-position{
-    margin-left: 240px;
+    margin-left: 18vw;
     text-align: center;
-    padding: 50px;
-    width: 600px;
+    padding-top: 12vh;
+    width: 75vh;
 
 }
 .white-btn{
@@ -143,29 +143,33 @@ li {
     
 }
 .blog-intro{
-    margin-left: 240px;
-    width: 600px;
-}
+    margin-left: 18vw;
+    text-align: center;
+    width: 75vh;
+    padding-top: 5vh;
+    }
 .blog-photos {
     display: flex;
     align-items: center;
     justify-content: space-around;
     text-align: left;
-    width: 910px;
-    margin-left: 150px;
+   
 }
 .blog-photo1 img{
-    width: 255px;
-    height: 260px;
-    border-radius: 5px;
+    width: 22vw;
+    height: 23vw;
+    border-radius: 40px;
     position: relative;
+    padding: 2vw;
     
 }
 .bg-white{
     background: white;
-    width: 190px;
+    width: 15vw;
     position: absolute;
-    margin-top  : -115px;
+    margin-top: -9vw;
+    padding: 1vw;
+    margin-left: 2vw;
 }
 .from-the-blog button{ 
     border :rgb(117, 78, 249, 0.1);
@@ -174,14 +178,15 @@ li {
     -webkit-box-shadow: 0px 4px 17px 0px rgba(102,122,119,1);
     -moz-box-shadow: 0px 4px 17px 0px rgba(102,122,119,1);
     box-shadow: 0px 4px 17px 0px rgba(102,122,119,1);
-    height: 30px;
-    width: 150px;
+    height: 4vh;
+    width: 15vw;
     border-radius: 30px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: auto;
+    margin-bottom: 2vw;
+    margin-left: 32vw;
 }
 .from-the-blog {
-    height: 5vh;
+    /* height: 5vh; */
     background-color: green;
 }
 
