@@ -96,13 +96,23 @@ nav {
 
 .about-me {
     padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .light-bg {
 }
 .dark-bg {
 }
 .intro {
-    width: 600px;/*prati*/
+    width: 50%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .about-me-left {
 }
@@ -117,9 +127,14 @@ i {
 .my-service  {
     background-color: rgb(230, 230, 230);
     padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .services-up {
     display: flex;
+
 }
 .services-down {
     display: flex;
@@ -140,18 +155,17 @@ i {
 .any-project {
     background: url(./img/any-proj-bg.jpg);
     background-size: cover;
-    height: 40vh;
     color: white;
 }
 .transparent-any-project{   
-    height: 40vh;
     background-color: rgb(117, 78, 249, 0.5);   
 }
 .project-position{
-    margin-left: 18vw;
     text-align: center;
     padding-top: 12vh;
-    width: 75vh;
+    padding-bottom: 12vh;
+    width: 50%;
+    margin: auto;
 
 }
 .white-btn{
@@ -175,6 +189,10 @@ i {
     height: 5vh;
     background-color: orange;
     padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .intro-my-recent {
 }
@@ -183,6 +201,10 @@ i {
 .my-pricing-plans {
     padding: 10%;
     background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .pricing {
     display: flex;
@@ -245,6 +267,11 @@ li {
 .from-the-blog {
     background-color: white;
     padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .blog-intro{
     margin-left: 18vw;
@@ -291,6 +318,10 @@ li {
 
 .get-in-touch {
     padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(230, 230, 230);
 }
 .contact-up {
