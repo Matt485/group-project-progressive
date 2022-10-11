@@ -370,3 +370,29 @@ li {
     height: 10px;
 }
 
+.progress-bar-container {
+    width: 20vw;
+    display: inline-block;
+}
+.pb-label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.pb-left {
+    align-self: flex-start;
+}
+.pb-right {
+    align-self: flex-end;
+}
+.progress-bar {
+    height: 0.3vh;
+    width: 100%;
+    background-color: #ccc;
+}
+.progress-bar-color {
+    height: 100%;
+    width: var(--pb-width);
+    background-color: blue;
+}
+
