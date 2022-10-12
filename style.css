@@ -109,9 +109,15 @@ nav {
 .unfold {
     background-image: "assests/myImage.jpg"
 }
+.dropdown{
+    display: none;
+}
 .menu {
     margin-right: 25px;
 
+}
+.menu-link{
+    display: inline-block;
 }
 .menu a:link{
     color:grey;
@@ -544,4 +550,3 @@ nav {
 .copyright p{
     margin-top: 5px;
 }
-
