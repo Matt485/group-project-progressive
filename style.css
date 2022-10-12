@@ -549,3 +549,7 @@ nav {
 .copyright p{
     margin-top: 5px;
 }
+
+i.fa {
+    padding-bottom: 0.1vh;;
+}
