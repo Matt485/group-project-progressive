@@ -71,7 +71,7 @@
 
 
 
-    /* my-services */
+/* my-services */
 
     .services-up {
         display: flex;
@@ -82,8 +82,14 @@
         flex-direction: column;
     }
 
-    .about-me-container {
-        flex-wrap: wrap;
+/* my-picing */
+
+    .pricing {
+    display: flex;
+    flex-direction: column;
+    }
+    .services-boxes {
+        margin-bottom: 8%;
     }
 
 }  
