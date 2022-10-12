@@ -500,6 +500,7 @@ nav {
     height: 250px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .contact-up-div{
     border: black 0.5px solid;
@@ -509,6 +510,7 @@ nav {
 }
 .contact-down {
     display: flex;
+    flex-wrap: wrap;
 }
 .contact-left {
     display: flex;
