@@ -375,6 +375,21 @@ nav {
     align-items: center;
 }
 
+
+.works-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.works-images img{
+    width: 20vw;
+    margin-top: 17px;
+}
+
+
+
+
 /* My Pricing Plans */
 
 .my-pricing-plans {
@@ -423,6 +438,7 @@ nav {
 .from-the-blog {
     background-color: white;
     display: flex;
+   
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -434,6 +450,8 @@ nav {
 }
 .blog-photos {
     display: flex;
+    width: 25vw;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-around;
     text-align: left;
