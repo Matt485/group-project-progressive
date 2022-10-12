@@ -8,10 +8,8 @@
 body {
     height: 100%;
     width: 100%;
-    margin: 0;
     background-color: white;
     font-family: Roboto;
-    line-height: 1.6;
 }
 .color-bold{
     color: #754ef9;
@@ -251,10 +249,6 @@ nav {
     width: 50%;
     padding-top: 25%;
 }
-.banner-right img {
-    height: 400px;
-    display: flex;
-}
 
 /* About Me */
 
@@ -311,13 +305,12 @@ nav {
     justify-content: center;
     align-items: center;
 }
-.services-up {
+.services-container {
     display: flex;
-}
-.services-down {
-    display: flex;
+    flex-wrap: wrap;
 }
 .one-service {
+    width: 10em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -329,7 +322,9 @@ nav {
     border-color: grey;
     padding: 3%;
     margin: 10px;
-
+}
+.one-service h3 {
+    margin-bottom: 0.8vh;
 }
 .fa-solid, .fa-regular {
     font-size: 2.3em;
@@ -537,7 +532,6 @@ nav {
 .copyright {
     padding-top: 2px;
     width: 80vw;
-    height: 30px;
     background: rgb(32, 32, 32);
     text-align: center;
     color: white;
@@ -548,5 +542,4 @@ nav {
 }
 .copyright p{
     margin-top: 5px;
-    height: 10px;
 }
