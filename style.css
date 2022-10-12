@@ -378,12 +378,13 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 .pricing {
     display: flex;
+    flex-wrap: wrap;
 }
 .services-boxes {
+    width: 12em;
     display: flex;
     flex-direction: column;
     text-align: center;
