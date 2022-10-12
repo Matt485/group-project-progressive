@@ -39,15 +39,18 @@
     }
 
 
-/* my-services */
+    /* my-services */
 
-.services-up {
-    display: flex;
-    flex-direction: column;
-}
-.services-down {
-    display: flex;
-    flex-direction: column;
-}
+    .services-up {
+        display: flex;
+        flex-direction: column;
+    }
+    .services-down {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .about-me-container {
+        flex-wrap: wrap;
+    }
 }  
