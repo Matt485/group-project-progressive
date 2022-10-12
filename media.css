@@ -2,7 +2,7 @@
   
     
     .intro{
-        width: 80vw;
+        width: 80vw;/*if u want to change u can */
     }
     .dropbtn {
         color: white;
@@ -42,6 +42,8 @@
     .banner-right img {
         display: none;
     }
+    /*blog photos*/
+
     .blog-photos {
         width: 50vw;
         flex-wrap: wrap;
@@ -66,5 +68,22 @@
     }
 
 
+
+
+
+    /* my-services */
+
+    .services-up {
+        display: flex;
+        flex-direction: column;
+    }
+    .services-down {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me-container {
+        flex-wrap: wrap;
+    }
 
 }  
