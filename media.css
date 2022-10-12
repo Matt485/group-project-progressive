@@ -2,7 +2,7 @@
   
     
     .intro{
-        width: 80vw;
+        width: 80%;/*i change it (hanna) :) */
     }
     .dropbtn {
         color: white;
@@ -42,6 +42,13 @@
     .banner-right img {
         display: none;
     }
+    .vertical-line {
+        display: none;
+    }
+
+
+/*blog photos*/
+
     .blog-photos {
         width: 50vw;
         flex-wrap: wrap;
@@ -64,6 +71,7 @@
     .from-the-blog button{
         width: 45vw;     
     }
+
     .my-pricing-plans .intro{
         margin-left: 0;
         padding-left: 0;
@@ -82,5 +90,31 @@
     }
     
 
+
+    .about-me-container {
+        flex-wrap: wrap;
+    }
+
+
+    /* my-services */
+
+    .services-up {
+        display: flex;
+        flex-direction: column;
+    }
+    .services-down {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* my-picing */
+
+    .pricing {
+        display: flex;
+        flex-direction: column;
+    }
+    .services-boxes {
+        margin-bottom: 8%;
+    }
 
 }  
