@@ -566,18 +566,25 @@ footer p {
     background: rgb(29,42,64);
     text-align: center;
     color: white;
+    height: 2vw;
 }
+
 .social-connect i{
-    margin: 5px;
-    color: white;
+
+     margin: 5px;
+     color: white;
+     font-size: 30px;
+
 }
-.logo-footer {
-    color: white;
-}
+
 .copyright i{
     color: white;
 }
 
 .copyright p{
     margin-top: 5px;
+}
+.copyright i{
+    color: black;
+    font-size: 15px;
 }
