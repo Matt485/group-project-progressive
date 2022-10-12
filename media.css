@@ -1,5 +1,4 @@
 @media (max-width : 680px), screen and (orientation: portrait) {
-
     .dropbtn {
         background-color: #4CAF50;
         color: white;
@@ -38,5 +37,7 @@
     .menu-link{
         display: none;
     }
-
+    .banner-right img {
+        display: none;
+    }
 }  
