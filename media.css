@@ -37,4 +37,17 @@
     .banner-right img {
         display: none;
     }
+
+
+/* my-services */
+
+.services-up {
+    display: flex;
+    flex-direction: column;
+}
+.services-down {
+    display: flex;
+    flex-direction: column;
+}
+
 }  
