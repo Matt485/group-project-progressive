@@ -563,8 +563,11 @@ nav {
     color: white;
     height: 2vw;
 }
+
 .social-connect i{
      margin: 5px;
+     color: white;
+     font-size: 30px;
 }
 .copyright p{
     margin-top: 5px;
