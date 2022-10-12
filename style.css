@@ -1,4 +1,5 @@
 
+/* Generic tags */
 
 * {
     margin: 0;
@@ -23,9 +24,79 @@ p {
     color: grey;
 }
 
+i {
+    color: #754ef9;
+    padding-bottom: 10%;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* Helper Classes */
+
+.button-white {
+    background-color: white;
+    color: #754ef9;    
+    border-style: 1px solid #754ef9;
+    border-radius: 30px;
+    margin: 10px;
+    height: 30px;
+    width: 150px;
+    box-shadow: 0px 6px 8px 0 #754ef9;
+}
+.button-purple {
+    background-color: #754ef9;
+    color: white;
+    border-style: 1px solid white;
+    border-radius: 30px;
+    margin: 10px;
+    height: 30px;
+    width: 150px;
+    box-shadow: 0px 6px 8px 0 #754ef9;
+}
+.white-btn{
+    background-color: white;
+    color: #754ef9;
+}
+.transparent-btn{
+    background-color:rgb(117, 78, 249, 0.1);
+    color: white;
+
+}
+.button button {
+    border: white solid 1px;
+    height: 30px;
+    width: 150px;
+    border-radius: 30px;
+    margin: 1vw;
+
+}
+.intro {
+    width: 50%;
+    padding: 0 3% 3% 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Main Classes */
+
 .main-container {
     width: 80vw;
     margin: auto;
+}
+
+/* Nav */
+
+nav a{
+    text-decoration: none;
+    padding: 5px;
+}
+nav {
+    height: 65px;
 }
 .header-container {
     margin: auto;
@@ -53,6 +124,7 @@ p {
     justify-content: space-between;
     align-items: center;
 }
+<<<<<<< HEAD
 nav a{
     text-decoration: none;
     padding: 5px;
@@ -74,27 +146,73 @@ nav {
 .banner {
     height: 500px;
 }
+
 .banner-bg {
-    margin: 0;
     height: 500px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     background-color: rgb(251, 251, 251);
+    position: relative;
 }
-.img-bg {
+
+/* Sizing: 1019x500 */
+
+.shape-1 {
+    position: absolute;
     height: 80px;
 }
-.column-bg {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.shape-2 {
+    position: absolute;
+    height: 60px;
+    top: -10px;
+    left: 150px;
 }
-.trait {
-    height: 2px;
-    background-color: #754ef9;
+.shape-3 {
+    position: absolute;
+    height: 100px;
+    top: -10px;
+    left: 300px;
 }
+.shape-2-b {
+    position: absolute;
+    height: 60px;
+    top: 0px;
+    left: 900px;
+}
+.shape-4 {
+    position: absolute;
+    height: 30px;
+    bottom: 300px;
+    left: 40px;
+}
+.shape-5 {
+    position: absolute;
+    height: 100px;
+    bottom: 30px;
+}
+.shape-3-b {
+    position: absolute;
+    height: 100px;
+    bottom: 150px;
+    left:  50px;
+}
+.shape-6 {
+    position: absolute;
+    height: 100px;
+    bottom: 50px;
+    left:  450px;
+}
+.shape-3-c {
+    position: absolute;
+    height: 80px;
+    bottom: 20px;
+    right:  10px;
+}
+.shape-1-b {
+    position: absolute;
+    height: 80px;
+    right:  20px;
+    bottom: 200px;
+}
+
 .banner-infront {
     height: 500px;
     width: 80vw;
@@ -125,9 +243,11 @@ nav {
     padding-top: 25%;
 }
 .banner-right img {
-    height: 500px;
+    height: 400px;
     display: flex;
 }
+
+/* About Me */
 
 .about-me {
     padding: 10%;
@@ -135,17 +255,6 @@ nav {
     align-items: center;
     flex-direction: column;
 }
-
-.intro {
-    width: 50%;
-    padding: 0 3% 3% 3%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 .about-me-container {
     display: flex;
     align-items: center;
@@ -159,10 +268,34 @@ nav {
 .about-me-right {
     flex: 1 1 0px;
 }
-i {
-    color: #754ef9;
-    padding-bottom: 10%;
+.progress-bar-container {
+    width: 100%;
+    display: inline-block;
 }
+.pb-label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.pb-left {
+    align-self: flex-start;
+}
+.pb-right {
+    align-self: flex-end;
+}
+.progress-bar {
+    height: 0.3vh;
+    width: 100%;
+    background-color: #ccc;
+}
+.progress-bar-color {
+    height: 100%;
+    width: var(--pb-width);
+    background-color: blue;
+}
+
+/* My Services */
+
 .my-service  {
     background-color: rgb(230, 230, 230);
     padding: 10%;
@@ -191,6 +324,9 @@ i {
     margin: 10px;
 
 }
+
+/* Projects in Mind */
+
 .any-project {
     background: url(./img/any-proj-bg.jpg);
     background-size: cover;
@@ -207,23 +343,9 @@ i {
     margin: auto;
 
 }
-.white-btn{
-    background-color: white;
-    color: #754ef9;
-}
-.transparent-btn{
-    background-color:rgb(117, 78, 249, 0.1);
-    color: white;
 
-}
-.button button {
-    border: white solid 1px;
-    height: 30px;
-    width: 150px;
-    border-radius: 30px;
-    margin: 1vw;
+/* My Recent Works */
 
-}
 .my-recent-works {
     padding: 10%;
     display: flex;
@@ -235,6 +357,9 @@ i {
 }
 .works-images {
 }
+
+/* My Pricing Plans */
+
 .my-pricing-plans {
     padding: 10%;
     background-color: rgb(230, 230, 230);
@@ -277,29 +402,8 @@ i {
     border-radius: 0 0 3px 3px;
 
 }
-li {
-  list-style-type: none;
-}
-.button-white {
-    background-color: white;
-    color: #754ef9;    
-    border-style: 1px solid #754ef9;
-    border-radius: 30px;
-    margin: 10px;
-    height: 30px;
-    width: 150px;
-    box-shadow: 0px 6px 8px 0 #754ef9;
-}
-.button-purple {
-    background-color: #754ef9;
-    color: white;
-    border-style: 1px solid white;
-    border-radius: 30px;
-    margin: 10px;
-    height: 30px;
-    width: 150px;
-    box-shadow: 0px 6px 8px 0 #754ef9;
-}
+
+/* From The Blog */
 
 .from-the-blog {
     background-color: white;
@@ -351,6 +455,8 @@ li {
     margin-bottom: 2vw;
 }
 
+/* Get in Touch */
+
 .get-in-touch {
     padding: 10%;
     display: flex;
@@ -379,8 +485,6 @@ li {
     flex-direction: column;
     justify-content: space-between;
     height: 300px;
-    
-    
 }
 .contact-right {
     border: white 15px solid;
@@ -397,6 +501,9 @@ li {
     height:255px;
     width:330px;
 }
+
+/* Footer */
+
 .footer-align{
     background-color: rgb(75, 78, 75);
     display: flex;
@@ -433,31 +540,5 @@ li {
 .copyright p{
     margin-top: 5px;
     height: 10px;
-}
-
-.progress-bar-container {
-    width: 100%;
-    display: inline-block;
-}
-.pb-label {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.pb-left {
-    align-self: flex-start;
-}
-.pb-right {
-    align-self: flex-end;
-}
-.progress-bar {
-    height: 0.3vh;
-    width: 100%;
-    background-color: #ccc;
-}
-.progress-bar-color {
-    height: 100%;
-    width: var(--pb-width);
-    background-color: blue;
 }
 
