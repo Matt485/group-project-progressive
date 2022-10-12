@@ -378,10 +378,8 @@ nav {
 }
 .pricing {
     display: flex;
-    flex-wrap: wrap;
 }
 .services-boxes {
-    width: 12em;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -410,6 +408,7 @@ nav {
     border-right: 1px solid grey;
     border-left: 1px solid grey;
     border-radius: 0 0 3px 3px;
+
 }
 
 /* From The Blog */
