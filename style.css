@@ -281,6 +281,10 @@ nav {
 .about-me-right {
     flex: 1 1 0px;
 }
+.information {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
 .progress-bar-container {
     width: 100%;
     display: inline-block;
