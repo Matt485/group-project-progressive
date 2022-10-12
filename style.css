@@ -561,11 +561,15 @@ nav {
     background: rgb(32, 32, 32);
     text-align: center;
     color: white;
+    height: 2vw;
 }
 .social-connect i{
-    
-    margin: 5px;
+     margin: 5px;
 }
 .copyright p{
     margin-top: 5px;
+}
+.copyright i{
+    color: black;
+    font-size: 15px;
 }
