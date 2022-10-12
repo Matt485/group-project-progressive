@@ -1,4 +1,9 @@
 @media (max-width : 680px), screen and (orientation: portrait) {
+  
+    
+    .intro{
+        width: 80vw;
+    }
     .dropbtn {
         color: white;
         padding: 2vw;
@@ -37,4 +42,29 @@
     .banner-right img {
         display: none;
     }
+    .blog-photos {
+        width: 50vw;
+        flex-wrap: wrap;
+    }
+    .blog-photo1 img{
+        width: 80vw;
+        height: 45vw;
+        border-radius: 0px;
+        position: relative;
+        padding-top: 1vw;
+    }
+    .bg-white{
+        background: white;
+        position: absolute;
+        margin-top: -26vw;
+        padding: 1vw;
+        margin-left: 0vw;
+        width: 40vw;
+    }
+    .from-the-blog button{
+        width: 45vw;     
+    }
+
+
+
 }  
