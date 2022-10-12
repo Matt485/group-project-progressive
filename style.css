@@ -298,7 +298,13 @@ nav {
 
 /* My Services */
 
-.my-service  {
+@media (max-width: 640px) {
+    .one-service {
+background-color: yellow;
+}
+
+}
+.my-service {
     background-color: rgb(230, 230, 230);
     display: flex;
     flex-direction: column;
@@ -360,10 +366,6 @@ nav {
     justify-content: center;
     align-items: center;
 }
-.intro-my-recent {
-}
-.works-images {
-}
 
 /* My Pricing Plans */
 
@@ -406,7 +408,6 @@ nav {
     border-right: 1px solid grey;
     border-left: 1px solid grey;
     border-radius: 0 0 3px 3px;
-
 }
 
 /* From The Blog */
