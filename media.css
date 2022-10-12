@@ -67,11 +67,11 @@
         width: 45vw;     
     }
 
+    .information {
+        flex-wrap: wrap;
+    }
 
-
-
-
-/* my-services */
+    /* my-services */
 
     .services-up {
         display: flex;
@@ -82,11 +82,11 @@
         flex-direction: column;
     }
 
-/* my-picing */
+    /* my-picing */
 
     .pricing {
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
     .services-boxes {
         margin-bottom: 8%;
