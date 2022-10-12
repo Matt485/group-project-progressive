@@ -64,7 +64,10 @@
     .from-the-blog button{
         width: 45vw;     
     }
-
+    .my-pricing-plans .intro{
+        margin-left: 0;
+        padding-left: 0;
+    }
 
 
 }  
