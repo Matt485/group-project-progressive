@@ -8,10 +8,8 @@
 body {
     height: 100%;
     width: 100%;
-    margin: 0;
     background-color: white;
     font-family: Roboto;
-    line-height: 1.6;
 }
 .color-bold{
     color: #754ef9;
@@ -537,7 +535,6 @@ nav {
 .copyright {
     padding-top: 2px;
     width: 80vw;
-    height: 30px;
     background: rgb(32, 32, 32);
     text-align: center;
     color: white;
@@ -548,6 +545,5 @@ nav {
 }
 .copyright p{
     margin-top: 5px;
-    height: 10px;
 }
 
