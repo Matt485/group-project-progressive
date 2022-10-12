@@ -304,25 +304,20 @@ nav {
 
 /* My Services */
 
-@media (max-width: 640px) {
-    .one-service {
-background-color: yellow;
-}
-
-}
-.my-service {
+.my-service  {
     background-color: rgb(230, 230, 230);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.services-container {
+.services-up {
     display: flex;
-    flex-wrap: wrap;
+}
+.services-down {
+    display: flex;
 }
 .one-service {
-    width: 10em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -334,13 +329,12 @@ background-color: yellow;
     border-color: grey;
     padding: 3%;
     margin: 10px;
-}
-.one-service h3 {
-    margin-bottom: 0.8vh;
+
 }
 .fa-solid, .fa-regular {
     font-size: 2.3em;
 }
+
 
 /* Projects in Mind */
 
