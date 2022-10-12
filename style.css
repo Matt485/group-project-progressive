@@ -12,6 +12,12 @@ body {
     margin: 0;
     background-color: white;
     font-family: Roboto;
+    line-height: 1.6;
+}
+.color-bold{
+    color: #754ef9;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 p {
@@ -102,14 +108,44 @@ nav {
 }
 .menu {
     margin-right: 25px;
+
+}
+.menu a:link{
+    color:grey;
+}
+.menu a:visited{
+    color: grey;
+}
+.menu a:hover{
+    color: #754ef9;
 }
 .nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+<<<<<<< HEAD
+nav a{
+    text-decoration: none;
+    padding: 5px;
 
-/* Banner */
+}
+.vertical-line {
+    border-left: 5px solid #754ef9;
+    height: 30px;
+    position: absolute;
+    margin-left: 76vw;
+  }
+  .vl-contact{
+    
+  }
+nav {
+    padding-top: 1vh;
+    height: 65px;
+}
+.banner {
+    height: 500px;
+}
 
 .banner-bg {
     height: 500px;
