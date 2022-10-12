@@ -285,6 +285,9 @@ nav {
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
+.info-li i {
+    padding-bottom: 0;
+}
 .progress-bar-container {
     width: 100%;
     display: inline-block;
