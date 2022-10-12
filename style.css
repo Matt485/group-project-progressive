@@ -366,10 +366,19 @@ nav {
     justify-content: center;
     align-items: center;
 }
-.intro-my-recent {
+
+.works-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
 }
-.works-images {
+.works-images img{
+    width: 20vw;
+    margin-top: 17px;
 }
+
+
 
 /* My Pricing Plans */
 
@@ -378,13 +387,12 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .pricing {
     display: flex;
-    flex-wrap: wrap;
 }
 .services-boxes {
-    width: 12em;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -421,6 +429,7 @@ nav {
 .from-the-blog {
     background-color: white;
     display: flex;
+   
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -432,6 +441,8 @@ nav {
 }
 .blog-photos {
     display: flex;
+    width: 25vw;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-around;
     text-align: left;
