@@ -3,7 +3,6 @@
 
 * {
     margin: 0;
-
 }
 
 body {
@@ -32,6 +31,7 @@ i {
 li {
   list-style-type: none;
 }
+
 
 /* Helper Classes */
 
@@ -72,6 +72,11 @@ li {
     margin: 1vw;
 
 }
+
+.section {
+    padding: 8% 10% 8% 10%;
+}    
+
 .intro {
     width: 50%;
     padding: 0 3% 3% 3%;
@@ -151,6 +156,10 @@ nav {
     height: 500px;
     background-color: rgb(251, 251, 251);
     position: relative;
+}
+
+.banner {
+    overflow: hidden;
 }
 
 /* Sizing: 1019x500 */
@@ -250,7 +259,6 @@ nav {
 /* About Me */
 
 .about-me {
-    padding: 10%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -298,7 +306,6 @@ nav {
 
 .my-service  {
     background-color: rgb(230, 230, 230);
-    padding: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -324,6 +331,9 @@ nav {
     margin: 10px;
 
 }
+.fa-solid, .fa-regular {
+    font-size: 2.3em;
+}
 
 /* Projects in Mind */
 
@@ -341,13 +351,15 @@ nav {
     padding-bottom: 12vh;
     width: 50%;
     margin: auto;
-
 }
+.project-position p {
+    color: white;
+}
+
 
 /* My Recent Works */
 
 .my-recent-works {
-    padding: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -361,7 +373,6 @@ nav {
 /* My Pricing Plans */
 
 .my-pricing-plans {
-    padding: 10%;
     background-color: rgb(230, 230, 230);
     display: flex;
     flex-direction: column;
@@ -407,7 +418,6 @@ nav {
 
 .from-the-blog {
     background-color: white;
-    padding: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -458,7 +468,6 @@ nav {
 /* Get in Touch */
 
 .get-in-touch {
-    padding: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
