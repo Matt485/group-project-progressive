@@ -109,9 +109,15 @@ nav {
 .unfold {
     background-image: "assests/myImage.jpg"
 }
+.dropdown{
+    display: none;
+}
 .menu {
     margin-right: 25px;
 
+}
+.menu-link{
+    display: inline-block;
 }
 .menu a:link{
     color:grey;
@@ -374,12 +380,13 @@ background-color: yellow;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 .pricing {
     display: flex;
+    flex-wrap: wrap;
 }
 .services-boxes {
+    width: 12em;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -544,4 +551,3 @@ background-color: yellow;
 .copyright p{
     margin-top: 5px;
 }
-

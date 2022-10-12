@@ -1,2 +1,40 @@
-@media (min-height: 680px), screen and (orientation: portrait) {
-}
+@media (max-width : 680px), screen and (orientation: portrait) {
+    .dropbtn {
+        color: white;
+        padding: 2vw;
+        /* font-size: 16px; */
+        border: none;
+        cursor: pointer;
+    }
+      
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        z-index: 1;
+    }
+      
+    .dropdown-content a {
+        text-decoration: none;
+        display: block;
+    }
+      
+    .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+      
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .menu-link{
+        display: none;
+    }
+    .banner-right img {
+        display: none;
+    }
+}  
